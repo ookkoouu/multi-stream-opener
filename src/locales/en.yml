@@ -1,0 +1,19 @@
+app:
+  name: Multi Stream Opener
+  description: Easy to create multi-stream URL
+
+toast:
+  added: Added $1
+  copied: URL copied!
+  fetching: Fetching URL...
+  failed: Valid URL not found
+
+menu:
+  item:
+    up: Move up
+    down: Move down
+    delete: Delete
+    add: Add this channel
+    clear: Clear list
+    open: Open URL
+    copy: Copy URL

@@ -1,0 +1,19 @@
+app:
+  name: Multi Stream Opener
+  description: 右クリメニューから配信複窓URLを作成するツール
+
+toast:
+  added: $1 を追加しました
+  copied: URLをコピーしました！
+  fetching: URLを取得中・・・
+  failed: URLが見つかりませんでした
+
+menu:
+  item:
+    up: 上へ移動
+    down: 下へ移動
+    delete: 削除
+    add: このチャンネルを追加
+    clear: リストをクリア
+    open: URLを開く
+    copy: URLをコピー
