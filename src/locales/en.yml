@@ -3,17 +3,17 @@ app:
   description: Easy to create multi-stream URL
 
 toast:
-  added: Added $1
-  copied: URL copied!
+  added: '"$1" Added'
+  copied: URL Copied!
   fetching: Fetching URL...
-  failed: Valid URL not found
+  failed: Valid URL not Found
 
 menu:
   item:
-    up: Move up
-    down: Move down
+    up: Move Up
+    down: Move Down
     delete: Delete
     add: Add this channel
-    clear: Clear list
+    clear: Clear List
     open: Open URL
     copy: Copy URL
