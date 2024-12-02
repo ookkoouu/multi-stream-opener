@@ -29,7 +29,9 @@ async function getUrl(channels: StreamChannel[]): Promise<string | undefined> {
         );
     }
   }
+
   const ids = (await Promise.all(tasks)).filter((e) => e != null);
+  if (ids.length === 0) return;
   return `https://twitchtheater.tv/${ids.join("/")}`;
 }
 

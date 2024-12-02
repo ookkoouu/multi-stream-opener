@@ -7,6 +7,7 @@ async function getUrl(channels: StreamChannel[]): Promise<string | undefined> {
   const ids = channels
     .filter((e) => e.platform === "twitch")
     .map((e) => e.user.id);
+  if (ids.length === 0) return;
 
   return `https://multistre.am/${ids.join("/")}`;
 }
