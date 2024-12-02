@@ -1,7 +1,7 @@
 {
   "name": "multi-stream-opener",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.0.1",
   "type": "module",
   "scripts": {
     "format": "prettier -w src && biome check --write src",
